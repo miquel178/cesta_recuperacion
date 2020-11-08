@@ -1,0 +1,13 @@
+/* **************************** */
+/* BOTONES */
+/* **************************** */
+
+// Asignación de clase <button>
+.btnEnviar{
+    background-color: $color-rojo;
+    border: 0;
+    border-radius: 10px;
+    color: $color-blanco;
+    padding: 0 1rem;
+    cursor: pointer;
+}

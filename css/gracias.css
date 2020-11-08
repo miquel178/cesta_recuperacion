@@ -1,0 +1,61 @@
+/*tipografías*/
+
+.cesta{
+    font-family: 'Rouge Script', cursive;
+    color:#d9c6ba;
+    font-weight: 400;
+    font-size: 4rem;
+}
+.suerte,.pedro{
+    font-family: arial;
+    color:#f24b6a;
+    font-weight: 900;
+    font-size: 7.5rem;
+
+}
+.pedro{
+    color: #f5b6c2;
+    font-size: 6rem;
+
+}
+.caja{
+    font-family: arial;
+    font-weight: 700;
+    font-size: 1rem;
+    color:#fff;
+    background-color:#d9c6ba ;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/*grid*/
+.container{
+    display: grid;
+    
+    grid-template-rows: 3fr auto 1fr 1fr 1fr;
+    max-height: 1024px;
+    
+
+}
+.cesta,.suerte,.pedro,.caja{
+    justify-self: center;
+}
+.cesta{
+   
+    grid-row: 2/3;
+}
+.suerte{
+   
+    grid-row:3/4 ;
+}
+.pedro{
+    grid-row: 4/5;
+    bottom:110px ;
+    position: relative;
+}
+.caja{
+   
+    grid-row: 5/6;
+    margin-bottom: 4rem;
+}
